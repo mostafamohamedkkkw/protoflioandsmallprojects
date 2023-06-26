@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.countianer{
+    background-color: #000;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    padding: 20px 0;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.content{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.text{
+    color: white;
+    width: 30%;
+    margin: 100px 100px;
+}
+.text H2{ 
+font-size: 40PX;
+}
+.text h2,p{ 
+padding: 20px 0;
+
+}
+.text a{ 
+color: black;
+background-color: #fff;
+text-decoration: none;
+padding: 8PX 15PX;
+font-weight: bold;
+border-radius: 20PX;
+}
+.content .img{
+width: 50%;
+margin: 0px 300px; 
+transform: translate(140px,0px);
+}
+.icons{
+position: absolute;
+bottom: 0;
+transform: translate(580px , -10px);
+}
+.icons img{
+width: 110px;
+margin-right: -50px;
+transition: 0.5s;
+cursor: pointer;
+}
+.icons img:hover{
+    transform: scale(1.2);
+}

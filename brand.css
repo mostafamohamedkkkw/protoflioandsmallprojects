@@ -1,0 +1,129 @@
+body{
+    font-family: "roboto";
+    background-color: #d7d7d7;
+}
+:root{
+    --dark-color: #19283f;
+    --green-color: #2eb6b2;
+    --red-color: #ff3150;
+    --yellow-color: #ffc400;
+    --section-color: #c1c1c1;
+}
+.ramdan{
+    background-color: var(--yellow-color);
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.favourite{
+    background-color: var(--dark-color);
+    padding: 15px;
+}
+.orange{
+    color: #e3ae00;
+}
+.blue{
+    color: var(--dark-color);
+}
+.jumia{
+    background-color: white;
+    padding: 10px;
+}
+.string{
+    padding-left: 120px;
+    text-align: center;
+}
+.jumia input{
+    width: 100%;
+}
+.jumia button{
+    position: relative;
+   right: 20px;
+   top: -3px;
+   color: white;
+   background-color: var(--yellow-color);
+   border: var(--yellow-color) solid 5px;
+   border-radius: 5px;
+   text-align: center;
+}
+.Home{
+    font-weight: bold;
+}
+.fashion{
+    display: flex;
+    margin-left: 80px;
+}
+.fashion p{
+padding-left: 5px;
+}
+.silver{
+    color: #7a7a7a;
+}
+.ppp{
+    width: 300px;
+    height: 420px;
+}
+.Kubo{
+    background-color: white;
+    border-radius: 5PX;
+}
+.photo-11{
+    padding-left: 60px;
+}
+.offer{
+    background-color: #19283f;
+    color: white;
+    border: solid #19283f 5px;
+}
+.EGP{
+    font-weight: bold;
+}
+.DISC{
+    display: flex;
+}
+.DISC P{
+margin-left: 10PX;
+background-color: #e4e1e1;
+color: #ff9900;
+}
+.SIZE{
+    display: flex;
+}
+.SIZE P{
+    color: #7a7a7a;
+    text-align: center;
+    font-size: 15PX;
+    width: 60PX;
+    height: 26PX;
+    margin-left: 20PX;
+    border: solid 1PX #aaa7a7;
+}
+.ADD{
+    width: 100%;
+    color: WHITE;
+    background-color: #ff9900;
+    border: 5PX #ff9900 solid;
+}
+.BACKGROUND{
+    width: 285PX;
+    height: 715PX;
+    background-color: WHITE;
+}
+.SPACE{
+    margin-left: 10PX;
+}
+.DELIVERY{
+    margin-left: 20PX;
+    width: 300PX;
+    border-radius: 5PX;
+    background-color: WHITE;
+}
+.CC{
+    margin-top: 10PX;
+}
+.select{
+    width: 100%;
+    height: 50px;
+}
+.select option{
+  margin-left: 20px;
+}

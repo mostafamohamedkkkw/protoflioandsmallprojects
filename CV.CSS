@@ -1,0 +1,104 @@
+body{
+    font-family: "roboto" , sans-serif;
+}
+
+.HEAD{
+    text-align:center;
+    background-color: rgba(147, 0, 0, 0.559);
+  padding: 40PX;
+    height: 140PX;
+    width: 2040PX;
+}
+.HEAD h1{
+margin-top: -30PX;
+font-size: 70px;
+}
+.HEAD h1,h4{
+color: white;
+
+}
+.HEAD h4{
+    font-size: 22px;
+    
+    }
+.grey{
+    height: 209px;
+    width: 320px;
+    background-color: rgb(237, 237, 237);
+    transform: translate(216px,0px);
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(226px,-299px);
+}
+.DETAILS{
+    position: absolute;
+    transform: translate(61PX,-150PX);
+}
+.DETAILS P{
+  font-weight: bold;
+}
+.PROFILE{
+    position: absolute;
+    left: 260PX;
+    transform: translate(0,50px)
+}
+.PROFILE h1{
+color: rgb(196, 11, 11);
+}
+.PROFILE .LINE{
+    position: absolute;
+    top: 100PX;
+    width: 180PX;
+    height: 2PX;
+background-color:rgb(196, 11, 11);
+}
+@media (max-width : 1000px) {
+    .HEAD{
+        width: 800px;
+    }
+    .PROFILE{
+        width:30px  
+    }
+    
+}
+/* @media (min-width : 2000px) {
+    .HEAD{
+        width: 2640px;
+    }
+    .PROFILE{
+        width:500px  
+    }
+    
+} */
+@media (max-width : 700px) {
+    .HEAD{
+        width: 400px;
+    }
+}
+.LINE-1{
+    position: absolute;
+    width: 180PX;
+    height: 2PX;
+background-color:rgb(196, 11, 11);
+}
+.LINE-2{
+    position: absolute;
+    width: 180PX;
+    height: 3PX;
+background-color:rgb(196, 11, 11);
+}
+.about{
+    position: absolute;
+   
+    transform: translate(1090px,-128px);
+}
+.about h1{
+    color: rgb(196, 11, 11);
+}
+.about h2{
+    width: 900px;
+}
